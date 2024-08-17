@@ -1,0 +1,80 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(62, 87, 120);
+}
+.board {
+  display: inline-block;
+  margin: 20px;
+}
+.tile {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #008000;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  cursor: pointer;
+
+  /* Default color for unrevealed tiles */
+  background-color: black;
+
+  /* Default color for unrevealed tile text */
+  color: #333;
+}
+.revealed {
+  /* Color for revealed tiles */
+  background-color: #bbd1b1;
+
+  /* Color for revealed tile text */
+  color: #000;
+}
+.mine {
+  /* Color for mines */
+  background-color: #0f0e0e;
+}
+
+
+
+footer {
+  margin-top: auto;
+  background-color: #5c81e7;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.div2{
+  flex-direction:column ;
+
+}
+
+#new-game-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #000606;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#new-game-button:hover {
+  background-color: #008000;
+}
+
+
